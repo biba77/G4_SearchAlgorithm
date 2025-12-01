@@ -1,2 +1,2 @@
 # G4_SearchAlgorithm
-This is the GBFS search algorithm implemented for the Kiwiberry Picking Problem for CSC3206 assignment 2
+This is the A* search algorithm implemented for the Kiwiberry Picking Problem for CSC3206 assignment 2
