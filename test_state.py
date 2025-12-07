@@ -1,5 +1,5 @@
 # test_state.py
-# Run this to verify State behavior with your teammate's farm.py
+# Run this to verify State behavior with farm_layout.py... it worked!!
 
 from farm_layout import Farm
 from state import State
