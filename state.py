@@ -1,7 +1,5 @@
 # state.py
 """
-Member 2: State Representation & Transition Model (deliverable).
-
 Provides:
 - State: immutable, hashable state representing Alex's position, basket contents, and harvested set.
 - Movement validation and application: is_valid_move, move_to
