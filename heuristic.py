@@ -17,11 +17,17 @@ def h_nearest_plot(state: Any, farm: Any) -> int:
 
 
 def h_return_if_full(state: Any, farm: Any) -> int:
+    # If not full, no need to return to station
     if state.weight < BASKET_LIMIT:
         return 0
-    first_cs = farm.get_collection_stations()[0]
-    return hex_distance(state.position, first_cs)
-    
+
+    # Find the nearest collection station
+    stations = farm.get_collection_stations()
+    if not stations:
+        return 0
+
+    return min(hex_distance(state.position, cs) for cs in stations)
+
 
 def h_combined(state: Any, farm: Any) -> int:
     dist_plot = h_nearest_plot(state, farm)
