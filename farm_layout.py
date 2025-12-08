@@ -23,7 +23,7 @@ class Farm:
                     self.cells[(q, r)] = Cell(weight=0, volume=0) 
 
         # starting point
-        self.start = (0, 0)
+        self.start = (4, -4)
 
         # collection stations
         self.collection_stations = [
