@@ -28,7 +28,7 @@ Recommended to use Spyder 6 as it comes with most of the libraries needed to run
 Run A_search.py
 
 ### Visualization of the output
-Run A_search.py
+Run Visualiser.py
 
 ## Credits
 * **Environment & Data Structure:** Hajah Atikah Haziqah Binti Abd Jalil @ Nuratikah Haziqah
