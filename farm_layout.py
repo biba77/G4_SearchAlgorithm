@@ -27,9 +27,9 @@ class Farm:
 
         # collection stations
         self.collection_stations = [
-            (-3, 0),  # left-ish station
-            (3, -1),  # right-ish station
-            (2, 2),   # top-right station
+            (2, 2),  # left-ish station
+            (4, -2),  # right-ish station
+            (-2, -2),   # top-right station
         ]
 
         # Capacity limits for Alex's basket
