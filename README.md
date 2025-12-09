@@ -21,7 +21,7 @@ This is the A* search algorithm implemented for the Kiwiberry Picking Problem fo
 * **`Visualiser.py`**: Renders the farm using `matplotlib`. It runs the search and plots the resulting path on a graphical hex grid.
 
 ## Prerequisites
-1. Recommended to use Spyder 6 as it comes with most of the libraries needed to run this (eg; matplotlib)
+Recommended to use Spyder 6 as it comes with most of the libraries needed to run this (eg; matplotlib)
 
 ## Instructions
 ### Search Results Output
@@ -31,8 +31,8 @@ Run A_search.py
 Run A_search.py
 
 ## Credits
-**Environtment & Data Structure:** Hajah Atikah Haziqah Binti Abd Jalil @ Nuratikah Haziqah 
-**State Representation & Transition Model:** Humayra Mohamed Esmail 
-**Cost Function & Heuristics Function (A*):** Owen Tay Khai Hung 
-**A* Search Algorithm Implementation::** Habiba Tarek Abdalla Mohamed Hassouna 
-**Visualization:** Jonas Ho Cheng Roong 
+* **Environment & Data Structure:** Hajah Atikah Haziqah Binti Abd Jalil @ Nuratikah Haziqah
+* **State Representation & Transition Model:** Humayra Mohamed Esmail
+* **Cost Function & Heuristics Function (A*):** Owen Tay Khai Hung
+* **A* Search Algorithm Implementation:** Habiba Tarek Abdalla Mohamed Hassouna
+* **Visualization:** Jonas Ho Cheng Roong
