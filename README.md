@@ -10,12 +10,16 @@ This is the A* search algorithm implemented for the Kiwiberry Picking Problem fo
 
 ## Core Structure
 
+### Entry Point
+* **`main.py`**: A master file to run the whole script. Intializes the A* algorithm first then the visualization.
+
 ### Logic
 * **`A_search.py`**: The driver script. Implements the A* algorithm using a priority queue (`heapq`) to explore states based on $f(n) = g(n) + h(n)$.
 * **`state.py`**: Defines the `State` class. It is immutable and hashable, tracking the agent's position, basket load, and the set of harvested plots. It generates valid successors (moves).
 * **`farm_layout.py`**: Defines the `Farm` environment, including the hexagonal grid boundaries (radius 4), fruit locations (weight/volume), and collection stations.
 * **`heuristic.py`**: Contains the heuristic functions. The `h_combined` function switches between targeting fruit or the nearest station based on the basket's load.
 * **`cost.py`**: Calculates movement costs (uniform cost of 1.0) and Manhattan distance for hexagonal grids.
+
 
 ### Visualization
 * **`Visualiser.py`**: Renders the farm using `matplotlib`. It runs the search and plots the resulting path on a graphical hex grid.
@@ -24,11 +28,8 @@ This is the A* search algorithm implemented for the Kiwiberry Picking Problem fo
 Recommended to use Spyder 6 as it comes with most of the libraries needed to run this (eg; matplotlib)
 
 ## Instructions
-### Search Results Output
-Run A_search.py
+Run main.py in Spyder 6 
 
-### Visualization of the output
-Run Visualiser.py
 
 ## Credits
 * **Environment & Data Structure:** Hajah Atikah Haziqah Binti Abd Jalil @ Nuratikah Haziqah
