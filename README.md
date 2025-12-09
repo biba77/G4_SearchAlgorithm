@@ -28,8 +28,11 @@ This is the A* search algorithm implemented for the Kiwiberry Picking Problem fo
 Recommended to use Spyder 6 as it comes with most of the libraries needed to run this (eg; matplotlib)
 
 ## Instructions
-Run main.py in Spyder 6 
+* **Run `main.py` in Spyder 6** *(Note: This process will take about 10 minutes to fully execute)*
 
+**OR**
+
+* **Run `A_search.py` and `Visualiser.py` individually**
 
 ## Credits
 * **Environment & Data Structure:** Hajah Atikah Haziqah Binti Abd Jalil @ Nuratikah Haziqah
