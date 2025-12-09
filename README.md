@@ -33,6 +33,6 @@ Run A_search.py
 ## Credits
 * **Environment & Data Structure:** Hajah Atikah Haziqah Binti Abd Jalil @ Nuratikah Haziqah
 * **State Representation & Transition Model:** Humayra Mohamed Esmail
-* **Cost Function & Heuristics Function (A*):** Owen Tay Khai Hung
-* **A* Search Algorithm Implementation:** Habiba Tarek Abdalla Mohamed Hassouna
+* **Cost Function & Heuristics Function (A\*):** Owen Tay Khai Hung
+* **A\* Search Algorithm Implementation:** Habiba Tarek Abdalla Mohamed Hassouna
 * **Visualization:** Jonas Ho Cheng Roong
