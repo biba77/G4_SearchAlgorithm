@@ -32,7 +32,7 @@ Recommended to use Spyder 6 as it comes with most of the libraries needed to run
 
 **OR**
 
-* **Run `A_search.py` and `Visualiser.py` individually** (Note: Each will take about 5 minutes to fully execute)
+* **Run `A_search.py` and `Visualiser.py` individually** *(Note: Each will take about 5 minutes to fully execute)*
 
 ## Credits
 * **Environment & Data Structure:** Hajah Atikah Haziqah Binti Abd Jalil @ Nuratikah Haziqah
